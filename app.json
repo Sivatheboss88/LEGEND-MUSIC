@@ -18,14 +18,17 @@
     "env": {
       "API_ID": {
         "description": "Telegram app id, get it from https://my.telegram.org/apps",
+        "value": "19042248"
         "required": true
       },
       "API_HASH": {
         "description": "Telegram app hash, get it from https://my.telegram.org/apps",
+        "value": "a1d443cb79941a89c493f22abf4f84cb",
         "required": true
       },
       "PYROGRAM_SESSION": {
         "description": "Pyrogram session string, get it from https://replit.com/@KrishnaJaiswal1/LEGENDBOT#main.py",
+        "value": "BQCbHjbitRzj_VkQ6ZsfCsMdmoQ506gy8yojNUpRKqpSMc8Yl6MyqgGW_EOD0ue4B7pcLY7VS8KoVVikEK3i_F1gDF7hK5EH4EbO_pQ8otbypzZt4pNtm-BmxOGBBQSQ9YTnewtiZkCWSW_Dc43ZEMbgBFVKLxR59Xe8c8_M6QBLZvTMOTR2HrhQ5pPE8r_BF23pGq2KBqGwXxSXr-NLqW0Bg0_HwH11HCd01d4kQZuBhkN8swFTLLxjveL9dF8Jz8RHUmoIP2UUxe10mEm3f6TFDuoKOuZmmb8iV0__hKAQca0iR2DlVhvAj299AL25VhcAgEJzKRv-j_b_cZWf_zFXAAAAAS6rxKMA",
         "required": true
       },
       "SUDO_USERS": {
