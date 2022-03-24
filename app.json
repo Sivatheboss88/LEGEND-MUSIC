@@ -1,7 +1,7 @@
 {
     "name": "Music Bot",
     "description": "A Telegram Music Bot written in Python using Pyrogram and Py-Tgcalls",
-    "logo": "https://github.com/LEGEND-AI/LEGEND-MUSIC/raw/master/theme/logo.png",
+    "logo": "https://github.com/Sivatheboss88/LEGEND-MUSIC/raw/master/theme/logo.png",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -17,11 +17,13 @@
     "env": {
       "API_ID": {
         "description": "Telegram app id, get it from https://my.telegram.org/apps",
-        "required": true
+        "required": true,
+        "value": "19042248"
       },
       "API_HASH": {
         "description": "Telegram app hash, get it from https://my.telegram.org/apps",
-        "required": true
+        "required": true,
+        "value": "a1d443cb79941a89c493f22abf4f84cb"
       },
       "BOT_TOKEN": {
         "description": "Your telegram bot token, get it from https://t.me/botfather",
@@ -29,7 +31,8 @@
       },
       "SESSION": {
         "description": "Pyrogram session string",
-        "required": true
+        "required": true,
+        "value": BQCbHjbitRzj_VkQ6ZsfCsMdmoQ506gy8yojNUpRKqpSMc8Yl6MyqgGW_EOD0ue4B7pcLY7VS8KoVVikEK3i_F1gDF7hK5EH4EbO_pQ8otbypzZt4pNtm-BmxOGBBQSQ9YTnewtiZkCWSW_Dc43ZEMbgBFVKLxR59Xe8c8_M6QBLZvTMOTR2HrhQ5pPE8r_BF23pGq2KBqGwXxSXr-NLqW0Bg0_HwH11HCd01d4kQZuBhkN8swFTLLxjveL9dF8Jz8RHUmoIP2UUxe10mEm3f6TFDuoKOuZmmb8iV0__hKAQca0iR2DlVhvAj299AL25VhcAgEJzKRv-j_b_cZWf_zFXAAAAAS6rxKMA"
       },
       "SUDOERS": {
         "description": "ID of sudo users who have special access (separate multiple ids with space)",
@@ -42,7 +45,7 @@
       },
       "LANGUAGE": {
         "description": "An available bot language (read the README.md for more info)",
-        "value": "en",
+        "value": "te",
         "required": false
       },
       "QUALITY": {
